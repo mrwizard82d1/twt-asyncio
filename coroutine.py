@@ -21,14 +21,13 @@ async def main():
     """
     print('Start of main coroutine')
     task = fetch_data(2)
+    print('End of main coroutine')
 
     # Await completion of the `fetch_data()` coroutine.
     # This action pauses the `main()` coroutine until
     # the `fetch_data()` call completes.
     result = await task
-
     print(f'Received result: {result}')
-    print('End of main coroutine')
 
 
 asyncio.run(main())

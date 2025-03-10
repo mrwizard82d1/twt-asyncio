@@ -3,4 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="uv (twt-asyncio)" />
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="uv (twt-asyncio)" project-jdk-type="Python SDK" />
 </project>
